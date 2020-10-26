@@ -21,7 +21,7 @@ policy "enforce-mandatory-tags" {
 
 policy "require-private-acl-and-kms-for-s3-buckets" {
   source = "./require-private-acl-and-kms-for-s3-buckets.sentinel"
-  enforcement_level = "advisory"
+  enforcement_level = "soft-mandatory"
 }
 
 policy "restrict-ami-owners" {
